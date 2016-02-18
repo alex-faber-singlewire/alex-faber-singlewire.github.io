@@ -649,6 +649,15 @@ crisis_dispatch.handlers.fetch_all_scenario_recipient_groups.cljs$lang$maxFixedA
 crisis_dispatch.handlers.fetch_all_scenario_recipient_groups.cljs$lang$applyTo = (function (seq15168){
 return crisis_dispatch.handlers.fetch_all_scenario_recipient_groups.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq15168));
 });
+/**
+ * Takes set of maps of recipient groups that contain irrelevant fields for the hashing algorithm.  This function removes the
+ *   follow fields from each map: numPlugins, numPhones, and numSpeakers
+ */
+crisis_dispatch.handlers.desensitize_recipient_groups = (function crisis_dispatch$handlers$desensitize_recipient_groups(recipient_groups){
+return cljs.core.set(cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (rg){
+return cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(rg,cljs.core.cst$kw$numPlugins),cljs.core.cst$kw$numPhones),cljs.core.cst$kw$numSpeakers);
+}),recipient_groups));
+});
 crisis_dispatch.handlers.validate_ic_state = (function crisis_dispatch$handlers$validate_ic_state(db,_){
 var temp__4425__auto___15221 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$admin_DASH_configuration,cljs.core.cst$kw$configuration], null));
 if(cljs.core.truth_(temp__4425__auto___15221)){
@@ -671,19 +680,7 @@ crisis_dispatch.handlers.fetch_full_messages.cljs$core$IFn$_invoke$arity$variadi
 return (function (messages){
 return crisis_dispatch.handlers.fetch_all_scenario_recipient_groups.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([cljs.core.cst$kw$recipient_DASH_group_DASH_ids_DASH_in_DASH_configuration,crisis_dispatch.handlers.get_all_recipient_group_ids_in_configuration(db),cljs.core.cst$kw$full_DASH_base_DASH_url,full_base_url_15223,cljs.core.cst$kw$credentials_DASH_map,credentials_map_15224,cljs.core.cst$kw$success_DASH_cb,((function (full_base_url_15223,credentials_map_15224,admin_configuration_15222,temp__4425__auto___15221){
 return (function (recipient_groups){
-cljs.core.print.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq(["[start] ========== MESSAGES =========== [start]"], 0));
-
-crisis_dispatch.handlers.pprint(cljs.core.sort_by.cljs$core$IFn$_invoke$arity$2(cljs.core.cst$kw$messageId,messages));
-
-cljs.core.print.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq(["[end]   ========== MESSAGES ===========   [end]"], 0));
-
-cljs.core.print.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq(["[start] ========== RECIPIENT GROUPS =========== [start]"], 0));
-
-crisis_dispatch.handlers.pprint(cljs.core.sort_by.cljs$core$IFn$_invoke$arity$2(cljs.core.cst$kw$id,recipient_groups));
-
-cljs.core.print.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq(["[end]   ========== RECIPIENT GROUPS ===========   [end]"], 0));
-
-var G__15218 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$ic_DASH_handshake_DASH_successful_QMARK_], null),cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$admin_DASH_configuration,cljs.core.cst$kw$configuration,cljs.core.cst$kw$checksum], null)),crisis_dispatch.handlers.md5_hash.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([cljs.core.sort_by.cljs$core$IFn$_invoke$arity$2(cljs.core.cst$kw$messageId,messages),cljs.core.sort_by.cljs$core$IFn$_invoke$arity$2(cljs.core.cst$kw$id,recipient_groups)], 0)))], null);
+var G__15218 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$ic_DASH_handshake_DASH_successful_QMARK_], null),cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$admin_DASH_configuration,cljs.core.cst$kw$configuration,cljs.core.cst$kw$checksum], null)),crisis_dispatch.handlers.md5_hash.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([cljs.core.sort_by.cljs$core$IFn$_invoke$arity$2(cljs.core.cst$kw$messageId,messages),cljs.core.sort_by.cljs$core$IFn$_invoke$arity$2(cljs.core.cst$kw$id,crisis_dispatch.handlers.desensitize_recipient_groups(recipient_groups))], 0)))], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15218) : re_frame.core.dispatch.call(null,G__15218));
 });})(full_base_url_15223,credentials_map_15224,admin_configuration_15222,temp__4425__auto___15221))
 ,cljs.core.cst$kw$error_DASH_cb,((function (full_base_url_15223,credentials_map_15224,admin_configuration_15222,temp__4425__auto___15221){

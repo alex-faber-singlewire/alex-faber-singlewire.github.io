@@ -905,8 +905,17 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.conj,r,cljs.core.
 });
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(extract_full_messages_from_scenario,cljs.core.PersistentVector.EMPTY,cljs.core.keys(cljs.core.cst$kw$scenarios.cljs$core$IFn$_invoke$arity$1(db)));
 });
+/**
+ * Takes set of maps of recipient groups that contain irrelevant fields for the hashing algorithm.  This function removes the
+ *   follow fields from each map: numPlugins, numPhones, and numSpeakers
+ */
+crisis_proto.handlers.desensitize_recipient_groups = (function crisis_proto$handlers$desensitize_recipient_groups(recipient_groups){
+return cljs.core.set(cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (rg){
+return cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(rg,cljs.core.cst$kw$numPlugins),cljs.core.cst$kw$numPhones),cljs.core.cst$kw$numSpeakers);
+}),recipient_groups));
+});
 crisis_proto.handlers.get_all_configured_recipient_groups = (function crisis_proto$handlers$get_all_configured_recipient_groups(db){
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (r,p__16358){
+return crisis_proto.handlers.desensitize_recipient_groups(cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (r,p__16358){
 var vec__16359 = p__16358;
 var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__16359,(0),null);
 var scenario_val = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__16359,(1),null);
@@ -916,23 +925,11 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.conj,r,cljs.core.
 } else {
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.conj,r,cljs.core.flatten(cljs.core.map.cljs$core$IFn$_invoke$arity$2(cljs.core.vals,cljs.core.vals(cljs.core.cst$kw$message_DASH_parameter_DASH_recipient_DASH_group_DASH_mapping.cljs$core$IFn$_invoke$arity$1(affiliations)))));
 }
-}),cljs.core.PersistentHashSet.EMPTY,cljs.core.cst$kw$scenarios.cljs$core$IFn$_invoke$arity$1(db));
+}),cljs.core.PersistentHashSet.EMPTY,cljs.core.cst$kw$scenarios.cljs$core$IFn$_invoke$arity$1(db)));
 });
 crisis_proto.handlers.hash_messages_and_recipient_groups = (function crisis_proto$handlers$hash_messages_and_recipient_groups(db){
 var messages = cljs.core.sort_by.cljs$core$IFn$_invoke$arity$2(cljs.core.cst$kw$messageId,crisis_proto.handlers.get_all_configured_full_messages(db));
 var recipient_groups = cljs.core.sort_by.cljs$core$IFn$_invoke$arity$2(cljs.core.cst$kw$id,crisis_proto.handlers.get_all_configured_recipient_groups(db));
-cljs.core.print.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq(["[start] ========== MESSAGES =========== [start]"], 0));
-
-crisis_proto.handlers.pprint(messages);
-
-cljs.core.print.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq(["[end]   ========== MESSAGES ===========   [end]"], 0));
-
-cljs.core.print.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq(["[start] ========== RECIPIENT GROUPS =========== [start]"], 0));
-
-crisis_proto.handlers.pprint(recipient_groups);
-
-cljs.core.print.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq(["[end]   ========== RECIPIENT GROUPS ===========   [end]"], 0));
-
 return crisis_proto.handlers.md5_hash.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq([messages,recipient_groups], 0));
 });
 crisis_proto.handlers.finalize = (function crisis_proto$handlers$finalize(db,_){
