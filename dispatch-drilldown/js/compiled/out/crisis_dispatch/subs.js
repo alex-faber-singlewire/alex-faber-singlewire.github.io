@@ -245,3 +245,14 @@ return r;
 });})(G__13939_13941))
 ;
 (re_frame.core.register_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.register_sub.cljs$core$IFn$_invoke$arity$2(G__13939_13941,G__13940_13942) : re_frame.core.register_sub.call(null,G__13939_13941,G__13940_13942));
+var G__13943_13945 = cljs.core.cst$kw$appearance;
+var G__13944_13946 = ((function (G__13943_13945){
+return (function (db){
+return reagent.ratom.make_reaction(((function (G__13943_13945){
+return (function (){
+return cljs.core.cst$kw$appearance.cljs$core$IFn$_invoke$arity$1((cljs.core.deref.cljs$core$IFn$_invoke$arity$1 ? cljs.core.deref.cljs$core$IFn$_invoke$arity$1(db) : cljs.core.deref.call(null,db)));
+});})(G__13943_13945))
+);
+});})(G__13943_13945))
+;
+(re_frame.core.register_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.register_sub.cljs$core$IFn$_invoke$arity$2(G__13943_13945,G__13944_13946) : re_frame.core.register_sub.call(null,G__13943_13945,G__13944_13946));
