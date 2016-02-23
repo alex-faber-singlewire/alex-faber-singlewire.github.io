@@ -1,0 +1,31 @@
+[
+ {
+  "type": "situation",
+  "name": "Emergency",
+  "color": "#FF0000",
+  "image": "http://alex-faber-singlewire.github.io/medical.png",
+  "parent": null
+  },
+ {
+  "type": "situation",
+  "name": "Fire",
+  "color": "#FF0000",
+  "image": "http://alex-faber-singlewire.github.io/fire.png",
+  "parent": "Emergency"
+  },
+ {
+  "type": "scenario",
+  "parent": "Fire",
+  "scenarioId": "Fire - All Clear"
+  },
+ {
+  "type": "scenario",
+  "parent": "Fire",
+  "scenarioId": "Fire - Declare"
+  },
+ {
+  "type": "scenario",
+  "parent": "Emergency",
+  "scenarioId": "Flood"
+  }
+ ]
