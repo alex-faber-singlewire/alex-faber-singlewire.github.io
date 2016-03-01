@@ -1,0 +1,80 @@
+[
+ {
+  "type": "situation",
+  "name": "Management Plans",
+  "color": "#0000FF",
+  "image": "http://alex-faber-singlewire.github.io/folder.png",
+  "parent": null
+  },
+  {
+  "type": "situation",
+  "name": "Serious Safety",
+  "color": "#CC9900",
+  "image": "http://alex-faber-singlewire.github.io/shield.png",
+  "parent": "Management Plans"
+  },
+  {
+  "type": "situation",
+  "name": "Situation Management",
+  "color": "#0099CC",
+  "image": "http://alex-faber-singlewire.github.io/situation.png",
+  "parent": "Management Plans"
+  },
+  {
+  "type": "scenario",
+  "parent": "Serious Safety",
+  "scenarioId": "Fire"
+  },
+  {
+  "type": "scenario",
+  "parent": "Serious Safety",
+  "scenarioId": "Active Shooter"
+  },
+  {
+  "type": "scenario",
+  "parent": "Serious Safety",
+  "scenarioId": "Missing Child"
+  },
+  {
+  "type": "scenario",
+  "parent": "Situation Management",
+  "scenarioId": "Loss of Power"
+  },
+  {
+  "type": "scenario",
+  "parent": "Situation Management",
+  "scenarioId": "Missing Adult"
+  },
+  {
+  "type": "scenario",
+  "parent": "Situation Management",
+  "scenarioId": "Planned Evacuation"
+  },
+  {
+  "type": "scenario",
+  "parent": "Situation Management",
+  "scenarioId": "IS Downtime"
+  },
+  {
+  "type": "situation",
+  "name": "Clinical Emergency",
+  "color": "#FF0000",
+  "image": "http://alex-faber-singlewire.github.io/medical.png",
+  "parent": null
+  },
+  {
+  "type": "scenario",
+  "parent": "Clinical Emergency",
+  "scenarioId": "Code Blue"
+  },
+  {
+  "type": "scenario",
+  "parent": "Clinical Emergency",
+  "scenarioId": "Degrading Patient"
+  },
+  {
+  "type": "scenario",
+  "parent": "Clinical Emergency",
+  "scenarioId": "Mass Casualty"
+  }
+ ]
