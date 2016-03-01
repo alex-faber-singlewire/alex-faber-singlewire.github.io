@@ -17,199 +17,199 @@ cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq(["dev
 } else {
 }
 secretary.core.set_config_BANG_(cljs.core.cst$kw$prefix,"#");
-var action__15066__auto___15593 = (function (params__15067__auto__){
-if(cljs.core.map_QMARK_(params__15067__auto__)){
-var map__15586 = params__15067__auto__;
-var map__15586__$1 = ((((!((map__15586 == null)))?((((map__15586.cljs$lang$protocol_mask$partition0$ & (64))) || (map__15586.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__15586):map__15586);
-var G__15588_15594 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$home], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15588_15594) : re_frame.core.dispatch.call(null,G__15588_15594));
+var action__15054__auto___15630 = (function (params__15055__auto__){
+if(cljs.core.map_QMARK_(params__15055__auto__)){
+var map__15623 = params__15055__auto__;
+var map__15623__$1 = ((((!((map__15623 == null)))?((((map__15623.cljs$lang$protocol_mask$partition0$ & (64))) || (map__15623.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__15623):map__15623);
+var G__15625_15631 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$home], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15625_15631) : re_frame.core.dispatch.call(null,G__15625_15631));
 
-var G__15589 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_situation_DASH_name], null),null], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15589) : re_frame.core.dispatch.call(null,G__15589));
-} else {
-if(cljs.core.vector_QMARK_(params__15067__auto__)){
-var vec__15590 = params__15067__auto__;
-var G__15591_15595 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$home], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15591_15595) : re_frame.core.dispatch.call(null,G__15591_15595));
-
-var G__15592 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_situation_DASH_name], null),null], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15592) : re_frame.core.dispatch.call(null,G__15592));
-} else {
-return null;
-}
-}
-});
-secretary.core.add_route_BANG_("/",action__15066__auto___15593);
-
-var action__15066__auto___15601 = (function (params__15067__auto__){
-if(cljs.core.map_QMARK_(params__15067__auto__)){
-var map__15596 = params__15067__auto__;
-var map__15596__$1 = ((((!((map__15596 == null)))?((((map__15596.cljs$lang$protocol_mask$partition0$ & (64))) || (map__15596.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__15596):map__15596);
-var G__15598 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$init], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15598) : re_frame.core.dispatch.call(null,G__15598));
-} else {
-if(cljs.core.vector_QMARK_(params__15067__auto__)){
-var vec__15599 = params__15067__auto__;
-var G__15600 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$init], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15600) : re_frame.core.dispatch.call(null,G__15600));
-} else {
-return null;
-}
-}
-});
-secretary.core.add_route_BANG_("/init",action__15066__auto___15601);
-
-var action__15066__auto___15607 = (function (params__15067__auto__){
-if(cljs.core.map_QMARK_(params__15067__auto__)){
-var map__15602 = params__15067__auto__;
-var map__15602__$1 = ((((!((map__15602 == null)))?((((map__15602.cljs$lang$protocol_mask$partition0$ & (64))) || (map__15602.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__15602):map__15602);
-var G__15604 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$credentials], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15604) : re_frame.core.dispatch.call(null,G__15604));
-} else {
-if(cljs.core.vector_QMARK_(params__15067__auto__)){
-var vec__15605 = params__15067__auto__;
-var G__15606 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$credentials], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15606) : re_frame.core.dispatch.call(null,G__15606));
-} else {
-return null;
-}
-}
-});
-secretary.core.add_route_BANG_("/credentials",action__15066__auto___15607);
-
-var action__15066__auto___15617 = (function (params__15067__auto__){
-if(cljs.core.map_QMARK_(params__15067__auto__)){
-var map__15608 = params__15067__auto__;
-var map__15608__$1 = ((((!((map__15608 == null)))?((((map__15608.cljs$lang$protocol_mask$partition0$ & (64))) || (map__15608.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__15608):map__15608);
-var name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15608__$1,cljs.core.cst$kw$name);
-var parameter = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15608__$1,cljs.core.cst$kw$parameter);
-var G__15610_15618 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$question], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15610_15618) : re_frame.core.dispatch.call(null,G__15610_15618));
-
-var G__15611_15619 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_scenario], null),decodeURI(name)], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15611_15619) : re_frame.core.dispatch.call(null,G__15611_15619));
-
-var G__15612 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_parameter], null),decodeURI(parameter)], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15612) : re_frame.core.dispatch.call(null,G__15612));
-} else {
-if(cljs.core.vector_QMARK_(params__15067__auto__)){
-var vec__15613 = params__15067__auto__;
-var name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15613,(0),null);
-var parameter = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15613,(1),null);
-var G__15614_15620 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$question], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15614_15620) : re_frame.core.dispatch.call(null,G__15614_15620));
-
-var G__15615_15621 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_scenario], null),decodeURI(name)], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15615_15621) : re_frame.core.dispatch.call(null,G__15615_15621));
-
-var G__15616 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_parameter], null),decodeURI(parameter)], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15616) : re_frame.core.dispatch.call(null,G__15616));
-} else {
-return null;
-}
-}
-});
-secretary.core.add_route_BANG_("/scenario/:name/parameter/:parameter",action__15066__auto___15617);
-
-var action__15066__auto___15631 = (function (params__15067__auto__){
-if(cljs.core.map_QMARK_(params__15067__auto__)){
-var map__15622 = params__15067__auto__;
-var map__15622__$1 = ((((!((map__15622 == null)))?((((map__15622.cljs$lang$protocol_mask$partition0$ & (64))) || (map__15622.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__15622):map__15622);
-var name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15622__$1,cljs.core.cst$kw$name);
-var G__15624_15632 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$dispatch], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15624_15632) : re_frame.core.dispatch.call(null,G__15624_15632));
-
-var G__15625_15633 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_scenario], null),decodeURI(name)], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15625_15633) : re_frame.core.dispatch.call(null,G__15625_15633));
-
-var G__15626 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$fetch_DASH_full_DASH_messages_DASH_of_DASH_scenario,decodeURI(name)], null);
+var G__15626 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_situation_DASH_name], null),null], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15626) : re_frame.core.dispatch.call(null,G__15626));
 } else {
-if(cljs.core.vector_QMARK_(params__15067__auto__)){
-var vec__15627 = params__15067__auto__;
-var name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15627,(0),null);
-var G__15628_15634 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$dispatch], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15628_15634) : re_frame.core.dispatch.call(null,G__15628_15634));
+if(cljs.core.vector_QMARK_(params__15055__auto__)){
+var vec__15627 = params__15055__auto__;
+var G__15628_15632 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$home], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15628_15632) : re_frame.core.dispatch.call(null,G__15628_15632));
 
-var G__15629_15635 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_scenario], null),decodeURI(name)], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15629_15635) : re_frame.core.dispatch.call(null,G__15629_15635));
-
-var G__15630 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$fetch_DASH_full_DASH_messages_DASH_of_DASH_scenario,decodeURI(name)], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15630) : re_frame.core.dispatch.call(null,G__15630));
+var G__15629 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_situation_DASH_name], null),null], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15629) : re_frame.core.dispatch.call(null,G__15629));
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/scenario/:name/dispatch",action__15066__auto___15631);
+secretary.core.add_route_BANG_("/",action__15054__auto___15630);
 
-var action__15066__auto___15643 = (function (params__15067__auto__){
-if(cljs.core.map_QMARK_(params__15067__auto__)){
-var map__15636 = params__15067__auto__;
-var map__15636__$1 = ((((!((map__15636 == null)))?((((map__15636.cljs$lang$protocol_mask$partition0$ & (64))) || (map__15636.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__15636):map__15636);
-var name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15636__$1,cljs.core.cst$kw$name);
-var G__15638_15644 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$home], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15638_15644) : re_frame.core.dispatch.call(null,G__15638_15644));
-
-var G__15639 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_situation_DASH_name], null),decodeURI(name)], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15639) : re_frame.core.dispatch.call(null,G__15639));
+var action__15054__auto___15638 = (function (params__15055__auto__){
+if(cljs.core.map_QMARK_(params__15055__auto__)){
+var map__15633 = params__15055__auto__;
+var map__15633__$1 = ((((!((map__15633 == null)))?((((map__15633.cljs$lang$protocol_mask$partition0$ & (64))) || (map__15633.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__15633):map__15633);
+var G__15635 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$init], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15635) : re_frame.core.dispatch.call(null,G__15635));
 } else {
-if(cljs.core.vector_QMARK_(params__15067__auto__)){
-var vec__15640 = params__15067__auto__;
-var name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15640,(0),null);
-var G__15641_15645 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$home], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15641_15645) : re_frame.core.dispatch.call(null,G__15641_15645));
-
-var G__15642 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_situation_DASH_name], null),decodeURI(name)], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15642) : re_frame.core.dispatch.call(null,G__15642));
+if(cljs.core.vector_QMARK_(params__15055__auto__)){
+var vec__15636 = params__15055__auto__;
+var G__15637 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$init], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15637) : re_frame.core.dispatch.call(null,G__15637));
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/situation/:name",action__15066__auto___15643);
+secretary.core.add_route_BANG_("/init",action__15054__auto___15638);
 
-var action__15066__auto___15651 = (function (params__15067__auto__){
-if(cljs.core.map_QMARK_(params__15067__auto__)){
-var map__15646 = params__15067__auto__;
-var map__15646__$1 = ((((!((map__15646 == null)))?((((map__15646.cljs$lang$protocol_mask$partition0$ & (64))) || (map__15646.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__15646):map__15646);
-var G__15648 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$not_DASH_found], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15648) : re_frame.core.dispatch.call(null,G__15648));
+var action__15054__auto___15644 = (function (params__15055__auto__){
+if(cljs.core.map_QMARK_(params__15055__auto__)){
+var map__15639 = params__15055__auto__;
+var map__15639__$1 = ((((!((map__15639 == null)))?((((map__15639.cljs$lang$protocol_mask$partition0$ & (64))) || (map__15639.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__15639):map__15639);
+var G__15641 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$credentials], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15641) : re_frame.core.dispatch.call(null,G__15641));
 } else {
-if(cljs.core.vector_QMARK_(params__15067__auto__)){
-var vec__15649 = params__15067__auto__;
-var G__15650 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$not_DASH_found], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15650) : re_frame.core.dispatch.call(null,G__15650));
+if(cljs.core.vector_QMARK_(params__15055__auto__)){
+var vec__15642 = params__15055__auto__;
+var G__15643 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$credentials], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15643) : re_frame.core.dispatch.call(null,G__15643));
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("*",action__15066__auto___15651);
+secretary.core.add_route_BANG_("/credentials",action__15054__auto___15644);
 
-crisis_dispatch.core.history = (function (){var G__15652 = (new goog.History());
-var G__15653_15656 = G__15652;
-var G__15654_15657 = goog.history.EventType.NAVIGATE;
-var G__15655_15658 = ((function (G__15653_15656,G__15654_15657,G__15652){
+var action__15054__auto___15654 = (function (params__15055__auto__){
+if(cljs.core.map_QMARK_(params__15055__auto__)){
+var map__15645 = params__15055__auto__;
+var map__15645__$1 = ((((!((map__15645 == null)))?((((map__15645.cljs$lang$protocol_mask$partition0$ & (64))) || (map__15645.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__15645):map__15645);
+var name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15645__$1,cljs.core.cst$kw$name);
+var parameter = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15645__$1,cljs.core.cst$kw$parameter);
+var G__15647_15655 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$question], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15647_15655) : re_frame.core.dispatch.call(null,G__15647_15655));
+
+var G__15648_15656 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_scenario], null),decodeURI(name)], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15648_15656) : re_frame.core.dispatch.call(null,G__15648_15656));
+
+var G__15649 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_parameter], null),decodeURI(parameter)], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15649) : re_frame.core.dispatch.call(null,G__15649));
+} else {
+if(cljs.core.vector_QMARK_(params__15055__auto__)){
+var vec__15650 = params__15055__auto__;
+var name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15650,(0),null);
+var parameter = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15650,(1),null);
+var G__15651_15657 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$question], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15651_15657) : re_frame.core.dispatch.call(null,G__15651_15657));
+
+var G__15652_15658 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_scenario], null),decodeURI(name)], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15652_15658) : re_frame.core.dispatch.call(null,G__15652_15658));
+
+var G__15653 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_parameter], null),decodeURI(parameter)], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15653) : re_frame.core.dispatch.call(null,G__15653));
+} else {
+return null;
+}
+}
+});
+secretary.core.add_route_BANG_("/scenario/:name/parameter/:parameter",action__15054__auto___15654);
+
+var action__15054__auto___15668 = (function (params__15055__auto__){
+if(cljs.core.map_QMARK_(params__15055__auto__)){
+var map__15659 = params__15055__auto__;
+var map__15659__$1 = ((((!((map__15659 == null)))?((((map__15659.cljs$lang$protocol_mask$partition0$ & (64))) || (map__15659.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__15659):map__15659);
+var name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15659__$1,cljs.core.cst$kw$name);
+var G__15661_15669 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$dispatch], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15661_15669) : re_frame.core.dispatch.call(null,G__15661_15669));
+
+var G__15662_15670 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_scenario], null),decodeURI(name)], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15662_15670) : re_frame.core.dispatch.call(null,G__15662_15670));
+
+var G__15663 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$fetch_DASH_full_DASH_messages_DASH_of_DASH_scenario,decodeURI(name)], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15663) : re_frame.core.dispatch.call(null,G__15663));
+} else {
+if(cljs.core.vector_QMARK_(params__15055__auto__)){
+var vec__15664 = params__15055__auto__;
+var name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15664,(0),null);
+var G__15665_15671 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$dispatch], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15665_15671) : re_frame.core.dispatch.call(null,G__15665_15671));
+
+var G__15666_15672 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_scenario], null),decodeURI(name)], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15666_15672) : re_frame.core.dispatch.call(null,G__15666_15672));
+
+var G__15667 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$fetch_DASH_full_DASH_messages_DASH_of_DASH_scenario,decodeURI(name)], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15667) : re_frame.core.dispatch.call(null,G__15667));
+} else {
+return null;
+}
+}
+});
+secretary.core.add_route_BANG_("/scenario/:name/dispatch",action__15054__auto___15668);
+
+var action__15054__auto___15680 = (function (params__15055__auto__){
+if(cljs.core.map_QMARK_(params__15055__auto__)){
+var map__15673 = params__15055__auto__;
+var map__15673__$1 = ((((!((map__15673 == null)))?((((map__15673.cljs$lang$protocol_mask$partition0$ & (64))) || (map__15673.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__15673):map__15673);
+var name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__15673__$1,cljs.core.cst$kw$name);
+var G__15675_15681 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$home], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15675_15681) : re_frame.core.dispatch.call(null,G__15675_15681));
+
+var G__15676 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_situation_DASH_name], null),decodeURI(name)], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15676) : re_frame.core.dispatch.call(null,G__15676));
+} else {
+if(cljs.core.vector_QMARK_(params__15055__auto__)){
+var vec__15677 = params__15055__auto__;
+var name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__15677,(0),null);
+var G__15678_15682 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$home], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15678_15682) : re_frame.core.dispatch.call(null,G__15678_15682));
+
+var G__15679 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_situation_DASH_name], null),decodeURI(name)], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15679) : re_frame.core.dispatch.call(null,G__15679));
+} else {
+return null;
+}
+}
+});
+secretary.core.add_route_BANG_("/situation/:name",action__15054__auto___15680);
+
+var action__15054__auto___15688 = (function (params__15055__auto__){
+if(cljs.core.map_QMARK_(params__15055__auto__)){
+var map__15683 = params__15055__auto__;
+var map__15683__$1 = ((((!((map__15683 == null)))?((((map__15683.cljs$lang$protocol_mask$partition0$ & (64))) || (map__15683.cljs$core$ISeq$))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__15683):map__15683);
+var G__15685 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$not_DASH_found], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15685) : re_frame.core.dispatch.call(null,G__15685));
+} else {
+if(cljs.core.vector_QMARK_(params__15055__auto__)){
+var vec__15686 = params__15055__auto__;
+var G__15687 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$set_DASH_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$active_DASH_panel], null),cljs.core.cst$kw$not_DASH_found], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15687) : re_frame.core.dispatch.call(null,G__15687));
+} else {
+return null;
+}
+}
+});
+secretary.core.add_route_BANG_("*",action__15054__auto___15688);
+
+crisis_dispatch.core.history = (function (){var G__15689 = (new goog.History());
+var G__15690_15693 = G__15689;
+var G__15691_15694 = goog.history.EventType.NAVIGATE;
+var G__15692_15695 = ((function (G__15690_15693,G__15691_15694,G__15689){
 return (function (event){
 return secretary.core.dispatch_BANG_(event.token);
-});})(G__15653_15656,G__15654_15657,G__15652))
+});})(G__15690_15693,G__15691_15694,G__15689))
 ;
-goog.events.listen(G__15653_15656,G__15654_15657,G__15655_15658);
+goog.events.listen(G__15690_15693,G__15691_15694,G__15692_15695);
 
-G__15652.setEnabled(true);
+G__15689.setEnabled(true);
 
-return G__15652;
+return G__15689;
 })();
 crisis_dispatch.core.mount_root = (function crisis_dispatch$core$mount_root(){
 return reagent.core.render.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [crisis_dispatch.views.main_panel], null),document.getElementById("app"));
 });
 crisis_dispatch.core.init = (function crisis_dispatch$core$init(){
-var G__15661_15663 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$initialize_DASH_db], null);
-(re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1(G__15661_15663) : re_frame.core.dispatch_sync.call(null,G__15661_15663));
+var G__15698_15700 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$initialize_DASH_db], null);
+(re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1(G__15698_15700) : re_frame.core.dispatch_sync.call(null,G__15698_15700));
 
-var G__15662_15664 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$start_DASH_interval], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15662_15664) : re_frame.core.dispatch.call(null,G__15662_15664));
+var G__15699_15701 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$start_DASH_interval], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__15699_15701) : re_frame.core.dispatch.call(null,G__15699_15701));
 
 return crisis_dispatch.core.mount_root();
 });
