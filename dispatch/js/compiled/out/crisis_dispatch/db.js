@@ -6,18 +6,18 @@ crisis_dispatch.db.db_schema = cljs.core.PersistentHashMap.fromArrays([schema.co
 crisis_dispatch.db.default_db = new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$active_DASH_panel,cljs.core.cst$kw$home,cljs.core.cst$kw$ic_DASH_handshake_DASH_successful_QMARK_,true], null);
 crisis_dispatch.db.validate = (function crisis_dispatch$db$validate(db){
 try{return schema.core.validate(crisis_dispatch.db.db_schema,db);
-}catch (e19395){if((e19395 instanceof Error)){
-var e = e19395;
+}catch (e15080){if((e15080 instanceof Error)){
+var e = e15080;
 console.error("Database Integrity Issue, current state shown below");
 
 console.log(db);
 
-var G__19396_19397 = JSON.stringify(cljs.core.clj__GT_js(db));
-console.log(G__19396_19397);
+var G__15081_15082 = JSON.stringify(cljs.core.clj__GT_js(db));
+console.log(G__15081_15082);
 
 throw e;
 } else {
-throw e19395;
+throw e15080;
 
 }
 }});
