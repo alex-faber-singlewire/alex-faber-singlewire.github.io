@@ -7,18 +7,18 @@ crisis_proto.db.db_schema = cljs.core.PersistentHashMap.fromArrays([schema.core.
 crisis_proto.db.default_db = new cljs.core.PersistentArrayMap(null, 6, [cljs.core.cst$kw$form_DASH_submission,new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$errors,null,cljs.core.cst$kw$result,null], null),cljs.core.cst$kw$modal_DASH_content,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$h1,"modal"], null),cljs.core.cst$kw$active_DASH_panel,cljs.core.cst$kw$home,cljs.core.cst$kw$selected_DASH_parameter_DASH_options,cljs.core.PersistentArrayMap.EMPTY,cljs.core.cst$kw$scenarios,cljs.core.PersistentArrayMap.EMPTY,cljs.core.cst$kw$configuration,cljs.core.PersistentArrayMap.EMPTY], null);
 crisis_proto.db.validate = (function crisis_proto$db$validate(db){
 try{return schema.core.validate(crisis_proto.db.db_schema,db);
-}catch (e16596){if((e16596 instanceof Error)){
-var e = e16596;
+}catch (e16610){if((e16610 instanceof Error)){
+var e = e16610;
 console.error("Database Integrity Issue, current state shown below");
 
 console.log(db);
 
-var G__16597_16598 = JSON.stringify(cljs.core.clj__GT_js(db));
-console.log(G__16597_16598);
+var G__16611_16612 = JSON.stringify(cljs.core.clj__GT_js(db));
+console.log(G__16611_16612);
 
 throw e;
 } else {
-throw e16596;
+throw e16610;
 
 }
 }});
