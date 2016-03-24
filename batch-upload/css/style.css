@@ -1,0 +1,23 @@
+.narrow {
+    max-width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.very {
+    max-width: 300px;
+}
+
+.defaults-label {
+    font-weight: 400;
+    text-shadow: none;
+}
+
+.masthead-nav > .active > a {
+    border-bottom-color: #66B855;
+}
+
+.masthead-nav > .active > a:focus {
+    border-bottom-color: #66B855;
+}
