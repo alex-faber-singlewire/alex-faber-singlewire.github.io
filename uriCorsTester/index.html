@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+  <p>Look for the logs in the console</p>
+  <input id="uri" type="text" />
+  <button onClick="tryCorsRequest()">Test</button>
+  <script>
+    var tryCorsRequest = function(){
+      function reqListener () {
+        console.log("response below: ");
+        console.log(this.responseText);
+      }
+
+      var uri = document.getElementById('uri').value;
+
+      var oReq = new XMLHttpRequest();
+      oReq.addEventListener("load", reqListener);
+      oReq.open("GET", uri);
+      oReq.send();
+    }
+  </script>
+  </body>
+</html>
